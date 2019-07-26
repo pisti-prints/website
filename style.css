@@ -1,0 +1,1050 @@
+/*
+Theme Name: Twenty Nineteen Child
+Theme URI: https://en-gb.wordpress.org/themes/twentynineteen/
+Author: ChildThemeWP.com
+Author URI: https://childthemewp.com
+Description: My WordPress Twenty Nineteen child theme.
+Template: twentynineteen
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.0.0
+Text Domain: twentynineteen-child
+*/
+
+@font-face{font-family:'Dosis';font-style:normal;font-weight:400;src:local('Dosis Regular'), local('Dosis-Regular'), url(https://fonts.gstatic.com/s/dosis/v8/HhyaU5sn9vOmLzlmC_W6EQ.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Dosis';font-style:normal;font-weight:400;src:local('Dosis Regular'), local('Dosis-Regular'), url(https://fonts.gstatic.com/s/dosis/v8/HhyaU5sn9vOmLzloC_U.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Dosis';font-style:normal;font-weight:500;src:local('Dosis Medium'), local('Dosis-Medium'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzGbKOCLMItyTA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Dosis';font-style:normal;font-weight:500;src:local('Dosis Medium'), local('Dosis-Medium'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzGbKOCFMIs.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Dosis';font-style:normal;font-weight:600;src:local('Dosis SemiBold'), local('Dosis-SemiBold'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzG3L-CLMItyTA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Dosis';font-style:normal;font-weight:600;src:local('Dosis SemiBold'), local('Dosis-SemiBold'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzG3L-CFMIs.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Dosis';font-style:normal;font-weight:700;src:local('Dosis Bold'), local('Dosis-Bold'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzHTLuCLMItyTA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Dosis';font-style:normal;font-weight:700;src:local('Dosis Bold'), local('Dosis-Bold'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzHTLuCFMIs.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+
+/***********************************/
+/* >>> Settings - Pisti Template ***/
+/***********************************/
+
+/* PART 1 - Before Lazy Load */
+img[data-lazyloaded]{
+	opacity: 0;
+}
+
+/* PART 2 - Upon Lazy Load */
+img.litespeed-loaded{
+	-webkit-transition: opacity .5s linear 0.2s;
+	-moz-transition: opacity .5s linear 0.2s;
+	transition: opacity .5s linear 0.2s;
+	opacity: 1;
+}
+
+h1,h2, h3, h4, h5, h6, div, p, span, table, td, th, tr {
+  font-family: 'Dosis', sans-serif;
+}
+
+a {
+  outline: none !important;
+}
+
+.pl-15px {
+  padding-left: 15px;
+}
+
+.pl-30px {
+  padding-left: 30px;
+}
+
+.pr-30px {
+  padding-right: 30px !important;
+}
+
+.pr-15px {
+  padding-right: 15px;
+}
+
+.px-15px {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.pb-lg-10pt {
+  padding-bottom: 10pt;
+}
+
+.pb-10pt {
+  padding-bottom: 10pt;
+}
+
+.mr-30px {
+  margin-right: 30px !important;
+}
+
+.font-white {
+  color: #FFFFFF;
+}
+
+.pisti-content-link {
+	color: #f7cc1b; 
+	text-decoration: underline !important;
+}
+
+.pisti-content-link:hover {
+	color: #f7cc1b; 
+}
+
+.pisti-content-link:visited {
+	color: #f7cc1b; 
+}
+
+.pisti-content-dot {
+	width: 6px;
+	height: 6px;
+	background-color: #F7CC1B;
+	border-radius: 100px;
+	margin-right: 10px;
+}
+
+/* body:-webkit-scrollbar-track {
+  border: 1px solid #000;
+  padding: 2px 0;
+  background-color: #404040;
+}
+
+body:-webkit-scrollbar-track-piece {
+  border: 1px solid #000;
+  padding: 2px 0;
+  background-color: #404040;
+}
+
+body::-webkit-scrollbar {
+  width: 8pt;
+  background-color: #000000;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #464646;
+} */
+
+body:-webkit-scrollbar-track {
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+
+body:-webkit-scrollbar-track-piece {
+  border: none;
+  padding: 0px;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar {
+  width: 0pt;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+/*********************************************/
+/* >>> Background Element - Pisti Template ***/
+/*********************************************/
+[data-bg-1] {
+	position:relative;
+}
+
+[data-bg-1]::before{
+  content: '';
+  position: absolute;
+  top: -2vh;
+  right: -6vw;
+  width: 264px;
+  height: 285px;
+  z-index: 10000;
+  background: url(https://temp1.asign.pro/wp-content/uploads/2019/05/element-1.png) no-repeat center center/100%;
+}
+
+[data-bg-2] {
+	position:relative;
+}
+
+[data-bg-2]::before{
+  content: '';
+  position: absolute;
+  top: -32vh;
+  left: -12vw;
+  width: 380px;
+  height: 380px;
+  z-index: 10000;
+  background: url(https://temp1.asign.pro/wp-content/uploads/2019/05/element-2.png) no-repeat center center/100%;
+}
+
+[data-bg-3] {
+	position:relative;
+}
+
+[data-bg-3]::before{
+  content: '';
+  position: absolute;
+  top: -18vh;
+  right: -12vw;
+  width: 404px;
+  height: 316px;
+  z-index: 10000;
+  background: url(https://temp1.asign.pro/wp-content/uploads/2019/05/element-3.png) no-repeat center center/100%;
+}
+
+[data-bg-4] {
+	position:relative;
+}
+
+[data-bg-4]::before{
+  content: '';
+  position: absolute;
+  top: -68vh;
+  left: -18vw;
+  width: 406px;
+  height: 573px;
+  z-index: 10000;
+  background: url(https://temp1.asign.pro/wp-content/uploads/2019/05/element-4.png) no-repeat center center/100%;
+}
+
+[data-bg-5] {
+	position:relative;
+}
+
+[data-bg-5]::before{
+  content: '';
+  position: absolute;
+  top: -28vh;
+  right: -2vw;
+  width: 275px;
+  height: 336px;
+  z-index: 10000;
+  background: url(https://temp1.asign.pro/wp-content/uploads/2019/05/element-5.png) no-repeat center center/100%;
+}
+
+[data-bg-5]::after{
+  content: '';
+  position: absolute;
+  top: 50vh;
+  left: -8vw;
+  width: 303px;
+  height: 507px;
+  z-index: 10000;
+  background: url(https://temp1.asign.pro/wp-content/uploads/2019/05/element-6.png) no-repeat center center/100%;
+}
+
+/**************************************/
+/* >>> Quick Panel - Pisti Template ***/
+/**************************************/
+.pisti-header {
+  color: #FFFFFF;
+  font-size: 16pt;
+}
+
+.pisti-header span {
+  font-size: 12pt;
+}
+
+.quick-contact {
+  background: #000000;
+  border-bottom: 0.6px solid #222222;
+}
+
+.quick-contact ul {
+  padding: 10pt 0;
+}
+
+.quick-contact ul li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  line-height: normal;
+  margin-right: 20pt;
+}
+
+.quick-contact ul li img {
+  margin-right: 6pt;
+}
+
+.quick-panel {
+  text-decoration: none;
+  color: #FFFFFF !important;
+}
+
+.quick-panel:hover {
+  text-decoration: none;
+  color: #f7cc1b !important;
+}
+
+/************************************/
+/* >>> Main Menu - Pisti Template ***/
+/************************************/
+.pisti-menu {
+  background-color: #000000;
+}
+
+.pisti-menu .navbar {
+  padding: 20pt 0px;
+}
+
+.pisti-link {
+  color: #666666 !important;
+  font-weight: 500;
+  padding-right: 14pt !important;
+  padding-left: 14pt !important;
+}
+
+.pisti-a-unactive {
+  border-bottom: 5px solid #000000;
+}
+
+.pisti-a-active {
+  border-bottom: 5px solid #FFFFFF;
+}
+
+.pisti-a-active {
+  color: #FFFFFF !important;
+}
+
+.request-for-quotes {
+  background-color: #f7cc1b;
+  padding: 8pt 16pt;
+  color: #000000 !important;
+  font-weight: 500;
+  border-radius: 6pt;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #f7cc1b, #21aac0, #c5db4f, #de1b6f, #f7cc1b);
+  background-size: 2000%;
+  z-index: 1;
+}
+
+.request-for-quotes:hover {
+  transition: all ease 0.3s;
+  animation: animate 50s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 2000%;
+  }
+}
+
+/*****************************************/
+/* >>> Secondary Menu - Pisti Template ***/
+/*****************************************/
+.pisti-alt-menu {
+  background-color: #111111;
+}
+
+.alt-menu-wrapper .navbar {
+  padding: 0px;
+}
+
+.pisti-alt-link {
+  font-size: 12pt;
+  font-weight: 500;
+  color: #888888 !important;
+  padding-top: 14pt !important;
+  padding-bottom: 10pt !important;
+  border-bottom: 4pt solid #111111 !important;
+  padding-left: 14pt !important;
+  padding-right: 14pt !important;
+}
+
+.pisti-alt-link:hover {
+  color: #FFFFFF !important;
+  transition: all ease 0.3s;
+}
+
+.pisti-alt-nav-dropdown-menu {
+  -webkit-box-shadow: 0px 20px 50px -16px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 20px 50px -16px rgba(0,0,0,0.3);
+  box-shadow: 0px 20px 50px -16px rgba(0,0,0,0.3);
+}
+
+.pisti-alt-nav-dropdown.show>a {
+  color: #FFFFFF !important;
+}
+
+.pisti-alt-link:focus {
+  border-bottom: 4pt solid #FFFFFF !important;
+  outline: none;
+}
+
+.pisti-alt-nav-dropdown-menu {
+  margin-top: 0px !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+  font-size: 12pt !important;
+  background-color: #111111 !important;
+  color: #FFFFFF !important;
+  padding: 0pt !important;
+  border-bottom-left-radius: 6pt !important;
+  border-bottom-right-radius: 6pt !important;
+}
+
+.dropdown-item-wrapper {
+  margin: 20pt;
+  margin-right: 0pt;
+  width: 200px;
+  height: 250px;
+  overflow-y: auto;
+}
+
+.dropdown-item-wrapper a {
+  display: block;
+  color: #FFFFFF;
+}
+
+.dropdown-item-wrapper a:hover {
+  text-decoration: none;
+  color: #F7CC1B;
+}
+
+.dropdown-item-wrapper:-webkit-scrollbar-track {
+  border: 1px solid #000;
+  padding: 2px 0;
+  background-color: #404040;
+}
+
+.dropdown-item-wrapper::-webkit-scrollbar {
+  width: 5pt;
+}
+
+.dropdown-item-wrapper::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #464646;
+}
+
+.dropdown-display-wrapper {
+  background-color: #252525;
+  text-align: center;
+  border-bottom-right-radius: 6pt !important;
+}
+
+.dropdown-display-wrapper .display-img {
+  width: 250px;
+  height: 250px;
+}
+
+.dropdown-display-wrapper p {
+  padding: 10pt 0pt;
+}
+
+.replacement {
+  width: 250px;
+  height: 250px;
+  background-color: #FFFFFF;
+}
+
+.abc-sort {
+  margin-bottom: 0;
+  font-weight: 500;
+/*   font-size: 1rem; */
+  color: #666666;
+}
+
+/****************************************/
+/* >>> WhatsApp Icon - Pisti Template ***/
+/****************************************/
+div#style-6 {
+  height: 80px !important;
+  width: 80px !important;
+  line-height: 106px !important;
+}
+
+span#s6-icon {
+  font-size: 52px !important;
+}
+
+/*********************************/
+/* >>> Footer - Pisti Template ***/
+/*********************************/
+.pisti-footer {
+  background-color: #111111;
+  color: #FFFFFF;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-weight: 600;
+}
+
+.pisti-footer-title {
+  font-size: 20pt;
+}
+
+.pisti-footer ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.pisti-footer ul li {
+  list-style-type: none;
+}
+
+.footerlink {
+  font-weight: 400;
+}
+
+.footerlink a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16pt;
+  font-weight: 400;
+}
+
+.footerlink a:hover {
+  text-decoration: none;
+  color: #F7CC1B;
+}
+
+.pisti-footer-divider {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: solid 1px #F7CC1B;
+  width: 40px;
+}
+
+.pisti-footer-hr {
+  margin: 50px 0;
+  border: 0.6px solid #333333;
+}
+
+.pisti-socmed li {
+  display: inline-block;
+}
+
+.socmed a {
+  width: 51px;
+  height: 51px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.socmed-ig a {
+  background-position: 0px 0px;
+}
+
+.socmed-fb a {
+  background-position: -50px 0px;
+}
+
+.socmed-twtr a {
+  background-position: -100px 0px;
+}
+
+/*************************************/
+/* >>> Copyrights - Pisti Template ***/
+/*************************************/
+.pisti-rights {
+  background-color: #000000;
+}
+
+.pisti-copyright {
+  color: #888888;
+  font-size: 14pt;
+  margin-bottom: 0;
+  padding: 20pt 0;
+}
+
+.payment-gateway ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.payment-gateway ul li {
+  list-style-type: none;
+  margin-right: 10px;
+  margin-bottom: 0;
+  float: right;
+}
+
+
+
+
+
+/*************************************************/
+/* >>> Product Tab - Pisti Template - Products ***/
+/*************************************************/
+.bdt-active .bdt-tab-text{
+  font-weight:600;
+}
+
+.bdt-active .bdt-tabs-item-title::after {
+  height: 4pt !important;
+  background: #FFFFFF !important;
+}
+
+.pisti-product-item {
+	border-radius: 6pt !important;
+    background-color: #111111;
+}
+  
+.pisti-product-item-label {
+  color: #FFFFFF;
+  font-size: 14pt;
+  font-weight:400;
+}
+
+.pisti-product-a:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+/***************************************************/
+/* >>> Sidebar - Pisti Template - Product Single ***/
+/***************************************************/
+
+.pisti-sidebar {
+    background: none !important;
+    border: none;
+    border-left: 2px solid #888888;
+    color: #888888;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 30px 10px 20px;
+    text-align: left;
+    transition: 0.3s all ease;
+    width: 100%;
+}
+
+.pisti-sidebar:first-child {
+    padding-top: 0;
+}
+
+.pisti-sidebar-title {
+    border-left: 2px solid #888888;
+    display: none;
+    overflow: hidden;
+    transition: 0.3s all ease;
+}
+
+.pisti-sidebar:hover {
+    border-color: #FFFFFF;
+    color: #f7cc1b;
+    transition: 0.3s all ease;
+}
+
+.pisti-sidebar-active,
+.pisti-sidebar:active,
+.pisti-sidebar:focus {
+    border-color: #FFFFFF;
+    color: #f7cc1b !important;
+    outline: none;
+}
+
+.pisti-sidebar:focus + .pisti-sidebar-title {
+    border-color: #FFFFFF;
+    transition: 0.3s all ease;
+}
+
+.pisti-sidebar-content {
+    color: #888888 !important;
+    display: block;
+    font-size: 16px;
+    padding: 0px 30px 10px 30px;
+    transition: 0.3s all ease;
+}
+
+.pisti-sidebar-content:hover {
+    color: #FFFFFF !important;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+.pisti-sidebar-content:first-child {
+    padding-top: 10px;
+}
+
+.pisti-sidebar-content:last-child {
+    padding-bottom: 10px;
+}
+
+/* pisti-sidebar active */
+.onload-active {
+    color:#f7cc1b;
+    border-color: #FFFFFF;
+    display: block;
+    
+}
+
+.pisti-sidebar:focus+.pisti-sidebar-title {
+    border-color: #FFFFFF;
+    transition: 0.3s all ease;
+}
+
+.pisti-sidebar-title-active {
+    border-color: #FFFFFF;
+}
+
+.pisti-sidebar-title-active,
+.pisti-sidebar-content-active {
+    color: #FFFFFF !important;
+}
+
+.pisti-sidebar-content-active::before {
+    background-color: #FFFFFF;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    content: '';
+    height: 10px;
+    left: 2px;
+    margin-top: 8px;
+    position: absolute;
+    width: 6px;
+}
+
+/*************************************************/
+/* >>> Table - Pisti Template - Product Single ***/
+/*************************************************/
+.pisti-table {
+    width: 100%;
+}
+
+.table-caption {
+    background-color: #f7cc1b;
+    border: none;
+    padding: 10px 30px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.pisti-table-header th {
+    padding: 10px 30px;
+    background: #444444;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+	border: none;
+}
+
+.pisti-product-type {
+    padding: 10px 30px;
+    background: #444444;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+	border: none;
+}
+
+.pisti-table-row td {
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    background: #333333;
+    color: #FFFFFF;
+	border: none;
+}
+
+.pisti-table-row td:first-of-type {
+	border-bottom-left-radius: 8px;
+}
+
+.pisti-table-row td:last-of-type {
+	border-bottom-right-radius: 8px;
+}
+
+
+
+/*********************/
+/* >>> Responsive  ***/
+/*********************/
+@media (max-width: 1199.98px) { }
+
+@media (max-width: 991.98px) {
+
+  /**********************************************************/
+  /* >>> Responsive[991.98px] - Settings - Pisti Template ***/
+  /**********************************************************/
+  .pl-15px {
+    padding-left: 15px !important;
+  }
+
+  .pr-15px {
+    padding-right: 15px !important;
+  }
+
+  .mr-15px {
+    margin-right: 15px !important;
+  }
+
+  .ml-15px {
+    margin-left: 15px !important;
+  }
+
+  .mr-m-0 {
+    margin-right: 0px !important;
+  }
+
+  .px-15px {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .mx-15px {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+
+  .pb-m-10pt {
+    padding-bottom: 10pt;
+  }
+
+  .pl-m-0 {
+    padding-left: 0px !important;
+  }
+
+  /***************************************************************/
+  /* >>> Responsive[991.98px] - WhatsApp Icon - Pisti Template ***/
+  /***************************************************************/
+  div#style-6 {
+    height: 60px !important;
+    width: 60px !important;
+    line-height: 68px !important;
+  }
+
+  span#s6-icon {
+    font-size: 30px !important;
+  }
+
+  /*************************************************************/
+  /* >>> Responsive[991.98px] - Quick Panel - Pisti Template ***/
+  /*************************************************************/
+  .pisti-col {
+    padding: 0 40px !important;
+  }
+
+  .mobile-quick-contact {
+    background-color: #f7cc1b;
+    font-size: 12pt;
+  }
+
+  .mobile-quick-contact ul {
+    padding: 14pt 0pt;
+    margin: 0;
+  }
+
+  .mobile-quick-contact ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    line-height: normal;
+    margin-right: 16pt;
+  }
+
+  .mobile-quick-contact ul li div a {
+    text-decoration: none;
+    list-style: none;
+    line-height: normal;
+    color: #000000;
+  }
+
+  .mobile-quick-contact ul li img {
+    margin-right: 0pt;
+  }
+
+  /***********************************************************/
+  /* >>> Responsive[991.98px] - Main Menu - Pisti Template ***/
+  /***********************************************************/
+  .pisti-menu .navbar {
+    padding: 10pt 0;
+  }
+
+  .navbar-toggler {
+    background-color: transparent !important;
+    padding: 8pt 0pt 8pt 0pt !important;
+    font-size: initial !important;
+  }
+
+  .navbar-toggler span {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .pisti-spacing {
+    margin-bottom: 0pt;
+    margin-top: 10pt;
+    border-top: solid 2px #333333;
+  }
+
+  .pisti-menu-mobile ul li {
+    border-bottom: 2px #333333;
+  }
+
+  .pisti-mobile-icon:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+
+  .accordion {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: 500;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+
+  .panel {
+    padding: 0 15px;
+    background-color: #111111;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .panel a {
+    text-decoration: none;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    display: block;
+    margin-left: 15px;
+    color: #FFFFFF !important;
+    font-weight: 400;
+  }
+
+  /********************************************************/
+  /* >>> Responsive[991.98px] - Footer - Pisti Template ***/
+  /********************************************************/
+  .pisti-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .pisti-footer-title-follow-alt {
+    margin-top: 50px;
+  }
+
+
+
+
+  /*****************************************************************/
+  /* >>> Product Tab[991.98px] - Tab - Pisti Template - Products ***/
+  /*****************************************************************/
+  .mypistiproduct .bdt-tab {
+  	display: -webkit-box;
+    overflow: scroll;
+  }
+
+  .mypistiproduct .bdt-tabs-item {
+	margin-right: 20px;
+   
+  }
+
+  .mypistiproduct .bdt-tab-text {
+  	font-size: 14pt;
+  }
+
+  .mypistiproduct .bdt-tabs-item-title {
+  	padding: 6px 14px !important;
+  }
+
+  .mypistiproduct .bdt-tabs-item-title:after {
+  	height: 2px !important;
+  }
+
+  .mypistiproduct .pisti-product-item-label {
+    font-size: 12pt;
+  }
+
+	/***********************************************************************/
+	/* >>> >>> Product Tab[991.98px] - Table - Pisti Template - Products ***/
+	/***********************************************************************/
+	.table-caption, .pisti-table-header th, .pisti-product-type, .pisti-table-row td {
+    	padding-left: 15px;
+    	padding-right: 15px;
+	}
+}
+
+@media (max-width: 767.98px) { /* Tablet */
+  .pisti-col {
+    padding: 0 15px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+
+  /***********************************************************/
+  /* >>> Responsive[575.98px] - Main Menu - Pisti Template ***/
+  /***********************************************************/
+  .panel a {
+    color: #FFFFFF !important;
+  }
+
+  /********************************************************/
+  /* >>> Responsive[575.98px] - Footer - Pisti Template ***/
+  /********************************************************/
+  .pisti-footer-title-follow {
+    margin-top: 50px;
+  }
+
+  /************************************************************/
+  /* >>> Responsive[575.98px] - Copyrights - Pisti Template ***/
+  /************************************************************/
+  .pisti-rights {
+    text-align: center;
+  }
+
+  .pisti-copyright {
+    color: #888888;
+    font-size: 14pt;
+    margin-bottom: 0;
+    padding-top: 20pt;
+    padding-bottom: 6pt;
+  }
+
+  .payment-gateway ul {
+    text-align: center;
+  }
+
+  .payment-gateway ul li {
+    float: none;
+    width: 40pt;
+    display: inline-block;
+    padding-bottom: 20pt;
+  }
+
+	/***********************************************************************/
+	/* >>> >>> Product Tab[991.98px] - Table - Pisti Template - Products ***/
+	/***********************************************************************/
+	.pisti-table-row td p:first-of-type {
+	    padding-top: 10px;
+	}
+
+	.pisti-table-row td p:last-of-type {
+    	padding-bottom: 10px;
+	}
+}
