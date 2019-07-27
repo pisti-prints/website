@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome
 Welcome to the Pisti Print's website development channel.
 
