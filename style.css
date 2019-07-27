@@ -290,7 +290,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .pisti-link {
-  color: #666666 !important;
+  color: #666666;
   font-weight: 500;
   padding-right: 14pt !important;
   padding-left: 14pt !important;
@@ -300,11 +300,13 @@ body::-webkit-scrollbar-thumb {
   border-bottom: 5px solid #000000;
 }
 
-.pisti-a-active {
-  border-bottom: 5px solid #FFFFFF;
+.pisti-a-unactive:hover {
+  color: #eeeeee;
+  transition: 0.3s all ease;
 }
 
 .pisti-a-active {
+  border-bottom: 5px solid #FFFFFF;
   color: #FFFFFF !important;
 }
 
