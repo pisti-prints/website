@@ -300,6 +300,11 @@ body::-webkit-scrollbar-thumb {
   border-bottom: 5px solid #000000;
 }
 
+.pisti-a-unactive:hover {
+  color: #eeeeee;
+  transition: 0.3s all ease;
+}
+
 .pisti-a-active {
   border-bottom: 5px solid #FFFFFF;
 }
