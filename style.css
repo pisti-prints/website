@@ -301,7 +301,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .pisti-a-unactive:hover {
-  color: #eeeeee;
+  color: #eeeeee !important;
   transition: 0.3s all ease;
 }
 
