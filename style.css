@@ -153,95 +153,6 @@ body::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
 
-/*********************************************/
-/* >>> Background Element - Pisti Template ***/
-/*********************************************/
-[data-bg-1] {
-	position:relative;
-}
-
-[data-bg-1]::before{
-  content: '';
-  position: absolute;
-  top: -2vh;
-  right: -6vw;
-  width: 264px;
-  height: 285px;
-  z-index: 10000;
-  background: url(https://temp1.asign.pro/wp-content/uploads/2019/05/element-1.png) no-repeat center center/100%;
-}
-
-[data-bg-2] {
-	position:relative;
-}
-
-[data-bg-2]::before{
-  content: '';
-  position: absolute;
-  top: -32vh;
-  left: -12vw;
-  width: 380px;
-  height: 380px;
-  z-index: 10000;
-  background: url(https://temp1.asign.pro/wp-content/uploads/2019/05/element-2.png) no-repeat center center/100%;
-}
-
-[data-bg-3] {
-	position:relative;
-}
-
-[data-bg-3]::before{
-  content: '';
-  position: absolute;
-  top: -18vh;
-  right: -12vw;
-  width: 404px;
-  height: 316px;
-  z-index: 10000;
-  background: url(https://temp1.asign.pro/wp-content/uploads/2019/05/element-3.png) no-repeat center center/100%;
-}
-
-[data-bg-4] {
-	position:relative;
-}
-
-[data-bg-4]::before{
-  content: '';
-  position: absolute;
-  top: -68vh;
-  left: -18vw;
-  width: 406px;
-  height: 573px;
-  z-index: 10000;
-  background: url(https://temp1.asign.pro/wp-content/uploads/2019/05/element-4.png) no-repeat center center/100%;
-}
-
-[data-bg-5] {
-	position:relative;
-}
-
-[data-bg-5]::before{
-  content: '';
-  position: absolute;
-  top: -28vh;
-  right: -2vw;
-  width: 275px;
-  height: 336px;
-  z-index: 10000;
-  background: url(https://temp1.asign.pro/wp-content/uploads/2019/05/element-5.png) no-repeat center center/100%;
-}
-
-[data-bg-5]::after{
-  content: '';
-  position: absolute;
-  top: 50vh;
-  left: -8vw;
-  width: 303px;
-  height: 507px;
-  z-index: 10000;
-  background: url(https://temp1.asign.pro/wp-content/uploads/2019/05/element-6.png) no-repeat center center/100%;
-}
-
 /**************************************/
 /* >>> Quick Panel - Pisti Template ***/
 /**************************************/
@@ -296,6 +207,10 @@ body::-webkit-scrollbar-thumb {
   padding: 20pt 0px;
 }
 
+.pisti-menu-desktop ul {
+  color: #666666;
+}
+
 .pisti-link {
   color: #666666;
   font-weight: 500;
@@ -314,7 +229,7 @@ body::-webkit-scrollbar-thumb {
 
 .pisti-a-active {
   border-bottom: 5px solid #FFFFFF;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 
 .request-for-quotes {
