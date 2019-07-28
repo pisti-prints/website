@@ -46,7 +46,7 @@ a {
 }
 
 a:visited {
-  color: initial !important;
+  color: none !important;
 }
 
 .pl-15px {
@@ -294,7 +294,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .pisti-link {
-  color: #666666 !important;
+  color: #666666;
   font-weight: 500;
   padding-right: 14pt !important;
   padding-left: 14pt !important;
