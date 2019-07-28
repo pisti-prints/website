@@ -114,16 +114,16 @@
 						<ul>
 							<li class="gateway payment-1"><img width="60pt"
 									src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-bank-transfer.svg"
-									class="img-fluid" alt="pisti-payment-bank-transfer" /></li>
+									class="img-fluid pisti-payment" alt="pisti-payment-bank-transfer" /></li>
 							<li class="gateway payment-2"><img width="60pt"
 									src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-cash-dollar.svg"
-									class="img-fluid" alt="pisti-payment-cash-dollar" /></li>
+									class="img-fluid pisti-payment" alt="pisti-payment-cash-dollar" /></li>
 							<li class="gateway payment-3"><img width="60pt"
 									src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-dbs-paylah.svg"
-									class="img-fluid" alt="pisti-payment-paylah" /></li>
+									class="img-fluid pisti-payment" alt="pisti-payment-paylah" /></li>
 							<li class="gateway payment-4"><img width="60pt"
 									src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-paynow-color.svg"
-									class="img-fluid" alt="pisti-payment-paynow" /></li>
+									class="img-fluid pisti-payment" alt="pisti-payment-paynow" /></li>
 						</ul>
 					</div>
 				</div>
