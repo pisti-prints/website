@@ -294,7 +294,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .pisti-link {
-  color: #666666;
+  color: #666666 !important;
   font-weight: 500;
   padding-right: 14pt !important;
   padding-left: 14pt !important;
