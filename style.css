@@ -46,7 +46,7 @@ a {
 }
 
 a:visited {
-  color: inherit !important;
+  color: initial !important;
 }
 
 .pl-15px {
@@ -346,7 +346,7 @@ body::-webkit-scrollbar-thumb {
 /* >>> Secondary Menu - Pisti Template ***/
 /*****************************************/
 .pisti-alt-menu {
-  background-color: #444444;
+  background-color: #111111;
 }
 
 .alt-menu-wrapper .navbar {
