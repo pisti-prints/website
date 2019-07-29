@@ -113,7 +113,7 @@
 							<nav class="navbar navbar-expand-lg d-sm-flex justify-content-between">
 								<a class="ml-15px pl-15px pl-m-0" href="/">
 									<img width="200pt"
-										src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-logo-desktop.svg/"
+										src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-logo-desktop.svg"
 										class="main-logo img-fluid d-none d-lg-block ls-cache-exclude" alt="pisti-logo-desktop" />
 									<img width="50pt"
 										src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-logo-mobile.svg"
