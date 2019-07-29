@@ -50,7 +50,7 @@
 											src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-baseline-email-24px.svg"
 											class="img-fluid ls-cache-exclude" alt="pisti-email" />
 										<span><a class="quick-panel" target="_blank"
-												href="mailto:sales@pistiprints.com?cc=sales2@pistiprints.com?subject=Enquiries&body=Dear%20Pisti%20Prints,">sales@pistiprints.com</a></span>
+												href="mailto:sales@pistiprints.com?subject=Enquiries&body=Dear%20Pisti%20Prints,">sales@pistiprints.com</a></span>
 									</div>
 								</li>
 

@@ -44,7 +44,7 @@
 					<p class="pisti-footer-title pisti-footer-title-follow">Pisti support</p>
 					<div class="pisti-footer-divider"></div>
 					<ul class="pisti-footer-ul pisti-pistisupport">
-						<li class="footerlink line"><a href="mailto:sales@pistiprints.com?cc=sales2@pistiprints.com?subject=Enquiries&body=Dear%20Pisti%20Prints,"
+						<li class="footerlink line"><a href="mailto:sales@pistiprints.com?subject=Enquiries&body=Dear%20Pisti%20Prints,"
 								target="_blank">sales@pistiprints.com</a></li>
 						<li class="footerlink line"><a href="tel:+6566358358" target="_blank">Office: +65 6635 8358</a>
 						</li>
