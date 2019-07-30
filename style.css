@@ -11,33 +11,100 @@ Version: 1.0.0
 Text Domain: twentynineteen-child
 */
 
-@font-face{font-family:'Dosis';font-style:normal;font-weight:400;src:local('Dosis Regular'), local('Dosis-Regular'), url(https://fonts.gstatic.com/s/dosis/v8/HhyaU5sn9vOmLzlmC_W6EQ.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
-@font-face{font-family:'Dosis';font-style:normal;font-weight:400;src:local('Dosis Regular'), local('Dosis-Regular'), url(https://fonts.gstatic.com/s/dosis/v8/HhyaU5sn9vOmLzloC_U.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-@font-face{font-family:'Dosis';font-style:normal;font-weight:500;src:local('Dosis Medium'), local('Dosis-Medium'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzGbKOCLMItyTA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
-@font-face{font-family:'Dosis';font-style:normal;font-weight:500;src:local('Dosis Medium'), local('Dosis-Medium'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzGbKOCFMIs.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-@font-face{font-family:'Dosis';font-style:normal;font-weight:600;src:local('Dosis SemiBold'), local('Dosis-SemiBold'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzG3L-CLMItyTA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
-@font-face{font-family:'Dosis';font-style:normal;font-weight:600;src:local('Dosis SemiBold'), local('Dosis-SemiBold'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzG3L-CFMIs.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
-@font-face{font-family:'Dosis';font-style:normal;font-weight:700;src:local('Dosis Bold'), local('Dosis-Bold'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzHTLuCLMItyTA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
-@font-face{font-family:'Dosis';font-style:normal;font-weight:700;src:local('Dosis Bold'), local('Dosis-Bold'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzHTLuCFMIs.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dosis Regular'), local('Dosis-Regular'), url(https://fonts.gstatic.com/s/dosis/v8/HhyaU5sn9vOmLzlmC_W6EQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dosis Regular'), local('Dosis-Regular'), url(https://fonts.gstatic.com/s/dosis/v8/HhyaU5sn9vOmLzloC_U.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Dosis Medium'), local('Dosis-Medium'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzGbKOCLMItyTA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Dosis Medium'), local('Dosis-Medium'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzGbKOCFMIs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Dosis SemiBold'), local('Dosis-SemiBold'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzG3L-CLMItyTA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Dosis SemiBold'), local('Dosis-SemiBold'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzG3L-CFMIs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Dosis Bold'), local('Dosis-Bold'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzHTLuCLMItyTA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Dosis Bold'), local('Dosis-Bold'), url(https://fonts.gstatic.com/s/dosis/v8/HhyXU5sn9vOmLzHTLuCFMIs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
 /***********************************/
 /* >>> Settings - Pisti Template ***/
 /***********************************/
 
 /* PART 1 - Before Lazy Load */
-img[data-lazyloaded]{
-	opacity: 0;
+img[data-lazyloaded] {
+  opacity: 0;
 }
 
 /* PART 2 - Upon Lazy Load */
-img.litespeed-loaded{
-	-webkit-transition: opacity .5s linear 0.2s;
-	-moz-transition: opacity .5s linear 0.2s;
-	transition: opacity .5s linear 0.2s;
-	opacity: 1;
+img.litespeed-loaded {
+  -webkit-transition: opacity .5s linear 0.2s;
+  -moz-transition: opacity .5s linear 0.2s;
+  transition: opacity .5s linear 0.2s;
+  opacity: 1;
 }
 
-h1,h2, h3, h4, h5, h6, div, p, span, table, td, th, tr {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+span,
+table,
+td,
+th,
+tr {
   font-family: 'Dosis', sans-serif;
 }
 
@@ -90,24 +157,24 @@ a:active {
 }
 
 .pisti-content-link {
-	color: #f7cc1b; 
-	text-decoration: underline !important;
+  color: #f7cc1b;
+  text-decoration: underline !important;
 }
 
 .pisti-content-link:hover {
-	color: #f7cc1b; 
+  color: #f7cc1b;
 }
 
 .pisti-content-link:visited {
-	color: #f7cc1b; 
+  color: #f7cc1b;
 }
 
 .pisti-content-dot {
-	width: 6px;
-	height: 6px;
-	background-color: #F7CC1B;
-	border-radius: 100px;
-	margin-right: 10px;
+  width: 6px;
+  height: 6px;
+  background-color: #F7CC1B;
+  border-radius: 100px;
+  margin-right: 10px;
 }
 
 /* body:-webkit-scrollbar-track {
@@ -288,9 +355,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .pisti-alt-nav-dropdown-menu {
-  -webkit-box-shadow: 0px 20px 50px -16px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0px 20px 50px -16px rgba(0,0,0,0.3);
-  box-shadow: 0px 20px 50px -16px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 20px 50px -16px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 20px 50px -16px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 20px 50px -16px rgba(0, 0, 0, 0.3);
 }
 
 .pisti-alt-nav-dropdown.show>a {
@@ -371,7 +438,7 @@ body::-webkit-scrollbar-thumb {
 .abc-sort {
   margin-bottom: 0;
   font-weight: 500;
-/*   font-size: 1rem; */
+  /*   font-size: 1rem; */
   color: #666666;
 }
 
@@ -497,8 +564,8 @@ span#s6-icon {
 /*************************************************/
 /* >>> Product Tab - Pisti Template - Products ***/
 /*************************************************/
-.bdt-active .bdt-tab-text{
-  font-weight:600;
+.bdt-active .bdt-tab-text {
+  font-weight: 600;
 }
 
 .bdt-active .bdt-tabs-item-title::after {
@@ -507,14 +574,14 @@ span#s6-icon {
 }
 
 .pisti-product-item {
-	border-radius: 6pt !important;
-    background-color: #111111;
+  border-radius: 6pt !important;
+  background-color: #111111;
 }
-  
+
 .pisti-product-item-label {
   color: #FFFFFF;
   font-size: 14pt;
-  font-weight:400;
+  font-weight: 400;
 }
 
 .pisti-product-a:hover {
@@ -530,162 +597,161 @@ span#s6-icon {
 /***************************************************/
 
 .pisti-sidebar {
-    background: none !important;
-    border: none;
-    border-left: 2px solid #888888;
-    color: #888888;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 400;
-    padding: 10px 30px 10px 20px;
-    text-align: left;
-    transition: 0.3s all ease;
-    width: 100%;
+  background: none !important;
+  border: none;
+  border-left: 2px solid #888888;
+  color: #888888;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 30px 10px 20px;
+  text-align: left;
+  transition: 0.3s all ease;
+  width: 100%;
 }
 
 .pisti-sidebar:first-child {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 .pisti-sidebar-title {
-    border-left: 2px solid #888888;
-    display: none;
-    overflow: hidden;
-    transition: 0.3s all ease;
+  border-left: 2px solid #888888;
+  display: none;
+  overflow: hidden;
+  transition: 0.3s all ease;
 }
 
 .pisti-sidebar:hover {
-    border-color: #FFFFFF;
-    color: #f7cc1b;
-    transition: 0.3s all ease;
+  border-color: #FFFFFF;
+  color: #f7cc1b;
+  transition: 0.3s all ease;
 }
 
 .pisti-sidebar-active,
 .pisti-sidebar:active,
 .pisti-sidebar:focus {
-    border-color: #FFFFFF;
-    color: #f7cc1b !important;
-    outline: none;
+  border-color: #FFFFFF;
+  color: #f7cc1b !important;
+  outline: none;
 }
 
-.pisti-sidebar:focus + .pisti-sidebar-title {
-    border-color: #FFFFFF;
-    transition: 0.3s all ease;
+.pisti-sidebar:focus+.pisti-sidebar-title {
+  border-color: #FFFFFF;
+  transition: 0.3s all ease;
 }
 
 .pisti-sidebar-content {
-    color: #888888 !important;
-    display: block;
-    font-size: 16px;
-    padding: 0px 30px 10px 30px;
-    transition: 0.3s all ease;
+  color: #888888 !important;
+  display: block;
+  font-size: 16px;
+  padding: 0px 30px 10px 30px;
+  transition: 0.3s all ease;
 }
 
 .pisti-sidebar-content:hover {
-    color: #FFFFFF !important;
-    text-decoration: none;
-    transition: 0.3s all ease;
+  color: #FFFFFF !important;
+  text-decoration: none;
+  transition: 0.3s all ease;
 }
 
 .pisti-sidebar-content:first-child {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .pisti-sidebar-content:last-child {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 /* pisti-sidebar active */
 .onload-active {
-    color:#f7cc1b;
-    border-color: #FFFFFF;
-    display: block;
-    
+  color: #f7cc1b;
+  border-color: #FFFFFF;
+  display: block;
+
 }
 
 .pisti-sidebar:focus+.pisti-sidebar-title {
-    border-color: #FFFFFF;
-    transition: 0.3s all ease;
+  border-color: #FFFFFF;
+  transition: 0.3s all ease;
 }
 
 .pisti-sidebar-title-active {
-    border-color: #FFFFFF;
+  border-color: #FFFFFF;
 }
 
 .pisti-sidebar-title-active,
 .pisti-sidebar-content-active {
-    color: #FFFFFF !important;
+  color: #FFFFFF !important;
 }
 
 .pisti-sidebar-content-active::before {
-    background-color: #FFFFFF;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    content: '';
-    height: 10px;
-    left: 2px;
-    margin-top: 8px;
-    position: absolute;
-    width: 6px;
+  background-color: #FFFFFF;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  content: '';
+  height: 10px;
+  left: 2px;
+  margin-top: 8px;
+  position: absolute;
+  width: 6px;
 }
 
 /*************************************************/
 /* >>> Table - Pisti Template - Product Single ***/
 /*************************************************/
 .pisti-table {
-    width: 100%;
+  width: 100%;
 }
 
 .table-caption {
-    background-color: #f7cc1b;
-    border: none;
-    padding: 10px 30px;
-    font-size: 24px;
-    font-weight: 600;
-    color: #000000;
-    margin: 0px;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
+  background-color: #f7cc1b;
+  border: none;
+  padding: 10px 30px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  margin: 0px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .pisti-table-header th {
-    padding: 10px 30px;
-    background: #444444;
-    font-size: 20px;
-    font-weight: 600;
-    color: #FFFFFF;
-	border: none;
+  padding: 10px 30px;
+  background: #444444;
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: none;
 }
 
 .pisti-product-type {
-    padding: 10px 30px;
-    background: #444444;
-    font-size: 20px;
-    font-weight: 600;
-    color: #FFFFFF;
-	border: none;
+  padding: 10px 30px;
+  background: #444444;
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: none;
 }
 
 .pisti-table-row td {
-    padding: 10px 30px;
-    font-size: 20px;
-    font-weight: 400;
-    background: #333333;
-    color: #FFFFFF;
-	border: none;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 400;
+  background: #333333;
+  color: #FFFFFF;
+  border: none;
 }
 
 .pisti-table-row td:first-of-type {
-	border-bottom-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .pisti-table-row td:last-of-type {
-	border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
-.tncBtn:hover {
-  color: #F7CC1B;
-  transition: 0.3s all ease;
+.bdt-switcher-wrapper {
+  margin-top: 0;
 }
 
 
@@ -693,7 +759,7 @@ span#s6-icon {
 /*********************/
 /* >>> Responsive  ***/
 /*********************/
-@media (max-width: 1199.98px) { }
+@media (max-width: 1199.98px) {}
 
 @media (max-width: 991.98px) {
 
@@ -884,41 +950,46 @@ span#s6-icon {
   /* >>> Product Tab[991.98px] - Tab - Pisti Template - Products ***/
   /*****************************************************************/
   .mypistiproduct .bdt-tab {
-  	display: -webkit-box;
+    display: -webkit-box;
     overflow: scroll;
   }
 
   .mypistiproduct .bdt-tabs-item {
-	margin-right: 20px;
-   
+    margin-right: 20px;
+
   }
 
   .mypistiproduct .bdt-tab-text {
-  	font-size: 14pt;
+    font-size: 14pt;
   }
 
   .mypistiproduct .bdt-tabs-item-title {
-  	padding: 6px 14px !important;
+    padding: 6px 14px !important;
   }
 
   .mypistiproduct .bdt-tabs-item-title:after {
-  	height: 2px !important;
+    height: 2px !important;
   }
 
   .mypistiproduct .pisti-product-item-label {
     font-size: 12pt;
   }
 
-	/***********************************************************************/
-	/* >>> >>> Product Tab[991.98px] - Table - Pisti Template - Products ***/
-	/***********************************************************************/
-	.table-caption, .pisti-table-header th, .pisti-product-type, .pisti-table-row td {
-    	padding-left: 15px;
-    	padding-right: 15px;
-	}
+  /***********************************************************************/
+  /* >>> >>> Product Tab[991.98px] - Table - Pisti Template - Products ***/
+  /***********************************************************************/
+  .table-caption,
+  .pisti-table-header th,
+  .pisti-product-type,
+  .pisti-table-row td {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
-@media (max-width: 767.98px) { /* Tablet */
+@media (max-width: 767.98px) {
+
+  /* Tablet */
   .pisti-col {
     padding: 0 15px !important;
   }
@@ -966,14 +1037,14 @@ span#s6-icon {
     padding-bottom: 20pt;
   }
 
-	/***********************************************************************/
-	/* >>> >>> Product Tab[991.98px] - Table - Pisti Template - Products ***/
-	/***********************************************************************/
-	.pisti-table-row td p:first-of-type {
-	    padding-top: 10px;
-	}
+  /***********************************************************************/
+  /* >>> >>> Product Tab[991.98px] - Table - Pisti Template - Products ***/
+  /***********************************************************************/
+  .pisti-table-row td p:first-of-type {
+    padding-top: 10px;
+  }
 
-	.pisti-table-row td p:last-of-type {
-    	padding-bottom: 10px;
-	}
+  .pisti-table-row td p:last-of-type {
+    padding-bottom: 10px;
+  }
 }
