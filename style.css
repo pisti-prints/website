@@ -683,6 +683,11 @@ span#s6-icon {
 	border-bottom-right-radius: 8px;
 }
 
+.tncBtn:hover {
+  color: #F7CC1B;
+  transition: 0.3s all ease;
+}
+
 
 
 /*********************/
