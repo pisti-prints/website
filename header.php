@@ -37,7 +37,7 @@
 								<li>
 									<div class="quick-call d-flex align-items-center">
 										<img width="16pt"
-											src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-baseline-call-24px.svg"
+											src="https://pistiprints.com/wp-content/uploads/asset/icon/pistiprints-icon-baseline-call-24px.svg"
 											class="img-fluid ls-cache-exclude" alt="pisti-phone" />
 										<span><a class="quick-panel" target="_blank" href="tel:+6566358358">+65 6635
 												8358</a></span>
@@ -47,7 +47,7 @@
 								<li>
 									<div class="quick-email d-flex align-items-center">
 										<img width="16pt"
-											src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-baseline-email-24px.svg"
+											src="https://pistiprints.com/wp-content/uploads/asset/icon/pistiprints-icon-baseline-email-24px.svg"
 											class="img-fluid ls-cache-exclude" alt="pisti-email" />
 										<span><a class="quick-panel" target="_blank"
 												href="mailto:sales@pistiprints.com?subject=Enquiries&body=Dear%20Pisti%20Prints,">sales@pistiprints.com</a></span>
@@ -57,7 +57,7 @@
 								<li>
 									<div class="quick-location d-flex align-items-center">
 										<img width="16pt"
-											src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-baseline-location_on-24px.svg"
+											src="https://pistiprints.com/wp-content/uploads/asset/icon/pistiprints-icon-baseline-location_on-24px.svg"
 											class="img-fluid ls-cache-exclude" alt="pisti-location" />
 										<span><a class="quick-panel" target="_blank"
 												href="https://goo.gl/maps/nRipPCEktwfsKd8N8">ARK@Gambas, Sembawang
@@ -77,7 +77,7 @@
 									<div class="d-flex align-items-center">
 										<a target="_blank" href="tel:+6566358358">
 											<img width="24pt"
-												src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-baseline-call-24px.svg"
+												src="https://pistiprints.com/wp-content/uploads/asset/icon/pistiprints-icon-baseline-call-24px.svg"
 												class="img-fluid ls-cache-exclude" alt="pisti-phone" />
 										</a>
 									</div>
@@ -86,7 +86,7 @@
 									<div class="d-flex align-items-center">
 										<a target="_blank" href="mailto:sales@pistiprints.com">
 											<img width="24pt"
-												src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-baseline-email-24px.svg"
+												src="https://pistiprints.com/wp-content/uploads/asset/icon/pistiprints-icon-baseline-email-24px.svg"
 												class="img-fluid ls-cache-exclude" alt="pisti-email" />
 										</a>
 									</div>
@@ -95,7 +95,7 @@
 									<div class="d-flex align-items-center">
 										<a target="_blank" href="https://goo.gl/maps/nRipPCEktwfsKd8N8">
 											<img width="24pt"
-												src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-baseline-location_on-24px.svg"
+												src="https://pistiprints.com/wp-content/uploads/asset/icon/pistiprints-icon-baseline-location_on-24px.svg"
 												class="img-fluid ls-cache-exclude" alt="pisti-location" />
 										</a>
 									</div>
@@ -113,11 +113,13 @@
 							<nav class="navbar navbar-expand-lg d-sm-flex justify-content-between">
 								<a class="ml-15px pl-15px pl-m-0" href="/">
 									<img width="200pt"
-										src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-logo-desktop.svg"
-										class="main-logo img-fluid d-none d-lg-block ls-cache-exclude" alt="pisti-logo-desktop" />
+										src="https://pistiprints.com/wp-content/uploads/asset/icon/pistiprints-logo-desktop.svg"
+										class="main-logo img-fluid d-none d-lg-block ls-cache-exclude"
+										alt="pisti-logo-desktop" />
 									<img width="50pt"
-										src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-logo-mobile.svg"
-										class="main-logo img-fluid d-block d-lg-none ls-cache-exclude" alt="pisti-logo-mobile" />
+										src="https://pistiprints.com/wp-content/uploads/asset/icon/pistiprints-logo-mobile.svg"
+										class="main-logo img-fluid d-block d-lg-none ls-cache-exclude"
+										alt="pisti-logo-mobile" />
 								</a>
 
 								<p class="mb-0 d-block d-lg-none wecloming">Welcome</p>
@@ -308,7 +310,7 @@
 														<div class="display-img replacement">
 															<img id="img-replacement"
 																class="w-100 img-fluid img-replacement"
-																src="https://temp1.asign.pro/wp-content/uploads/2019/05/test-2.jpg"
+																src="https://pistiprints.com/wp-content/uploads/2019/05/test-2.jpg"
 																alt="">
 														</div>
 														<p id="text-replacement"
@@ -418,7 +420,7 @@
 														<!-- 														<div class="replacement"></div> -->
 														<div class="display-img replacement">
 															<img class="w-100 img-fluid img-replacement"
-																src="https://temp1.asign.pro/wp-content/uploads/2019/05/test-2.jpg"
+																src="https://pistiprints.com/wp-content/uploads/2019/05/test-2.jpg"
 																alt="">
 														</div>
 														<p class="mb-0 w-100 pisti-title text-replacement"></p>
@@ -511,7 +513,7 @@
 														<!-- 														<div class="replacement"></div> -->
 														<div class="display-img replacement">
 															<img class="w-100 img-fluid img-replacement"
-																src="https://temp1.asign.pro/wp-content/uploads/2019/05/test-2.jpg"
+																src="https://pistiprints.com/wp-content/uploads/2019/05/test-2.jpg"
 																alt="">
 														</div>
 														<p class="mb-0 w-100 pisti-title text-replacement"></p>

@@ -87,15 +87,15 @@
 					<ul class="pisti-footer-ul pisti-socmed">
 						<li class="footerlink socmed socmed-ig"><a href="https://www.instagram.com/pistiprints/"
 								target="_blank" class=""
-								style="background-image: url('https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-soc-med-icon.svg');"></a>
+								style="background-image: url('https://pistiprints.com/wp-content/uploads/asset/icon/pistiprints-icon-soc-med-icon.svg');"></a>
 						</li>
 						<li class="footerlink socmed socmed-fb"><a href="https://www.facebook.com/pistiprint/"
 								target="_blank" class=""
-								style="background-image: url('https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-soc-med-icon.svg"></a>
+								style="background-image: url('https://pistiprints.com/wp-content/uploads/asset/icon/pistiprints-icon-soc-med-icon.svg"></a>
 						</li>
 						<li class="footerlink socmed socmed-twtr"><a href="https://twitter.com/pistiprints/"
 								target="_blank" class=""
-								style="background-image: url('https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-soc-med-icon.svg"></a>
+								style="background-image: url('https://pistiprints.com/wp-content/uploads/asset/icon/pistiprints-icon-soc-med-icon.svg"></a>
 						</li>
 					</ul>
 				</div>
@@ -113,16 +113,16 @@
 					<div class="payment-gateway">
 						<ul>
 							<li class="gateway payment-1"><img width="60pt"
-									src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-bank-transfer.svg"
+									src="https://pistiprints.com/wp-content/uploads/asset/icon/pistiprints-icon-bank-transfer.svg"
 									class="img-fluid pisti-payment" alt="pisti-payment-bank-transfer" /></li>
 							<li class="gateway payment-2"><img width="60pt"
-									src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-cash-dollar.svg"
+									src="https://pistiprints.com/wp-content/uploads/asset/icon/pistiprints-icon-cash-dollar.svg"
 									class="img-fluid pisti-payment" alt="pisti-payment-cash-dollar" /></li>
 							<li class="gateway payment-3"><img width="60pt"
-									src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-dbs-paylah.svg"
+									src="https://pistiprints.com/wp-content/uploads/asset/icon/pistiprints-icon-dbs-paylah.svg"
 									class="img-fluid pisti-payment" alt="pisti-payment-paylah" /></li>
 							<li class="gateway payment-4"><img width="60pt"
-									src="https://asign.pro/wp-content/uploads/asset/icon/pistiprints-icon-paynow-color.svg"
+									src="https://pistiprints.com/wp-content/uploads/asset/icon/pistiprints-icon-paynow-color.svg"
 									class="img-fluid pisti-payment" alt="pisti-payment-paynow" /></li>
 						</ul>
 					</div>
