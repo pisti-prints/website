@@ -21,9 +21,7 @@
 	<meta name="google-site-verification" content="IEKkazzX_SWH-rq27o9t8T42skPVDWHtRVHamJpw8yE" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
 
-	<?php wp_head(); ?>
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145095733-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -54,6 +52,8 @@
 		})(window, document, 'script', 'dataLayer', 'GTM-T5SKKLB');
 	</script>
 	<!-- End Google Tag Manager -->
+
+	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
