@@ -19,8 +19,20 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
-	<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
-	<!-- 	<script type="text/javascript">var $jq = jQuery.noConflict();$jq(function() {var nav = document.getElementById("pisti-nav-link"),anchor = nav.getElementsByTagName("a"),current = window.location;console.log("anchor = ", anchor, "current = ", current);for (var i = 0; i < anchor.length; i++) {if (anchor[i].href == current) {anchor[i].className = "nav-link pisti-link pisti-a-unactive pisti-a-active";}}});</script> -->
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145095733-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-145095733-1');
+	</script>
+
 	<?php wp_head(); ?>
 </head>
 
