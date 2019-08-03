@@ -21,6 +21,8 @@
 	<meta name="google-site-verification" content="IEKkazzX_SWH-rq27o9t8T42skPVDWHtRVHamJpw8yE" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
 
+	<?php wp_head(); ?>
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145095733-1"></script>
 	<script>
@@ -52,11 +54,10 @@
 		})(window, document, 'script', 'dataLayer', 'GTM-T5SKKLB');
 	</script>
 	<!-- End Google Tag Manager -->
-
-	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
+	<?php wp_body_open(); ?>
 
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5SKKLB" height="0" width="0"
@@ -64,7 +65,6 @@
 	<!-- End Google Tag Manager (noscript) -->
 	<div id="page" class="site">
 
-		<?php wp_body_open(); ?>
 		<header id="" class="pisti-header">
 			<div class="quick-contact">
 				<div class="container d-none d-lg-block">
