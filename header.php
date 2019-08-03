@@ -18,6 +18,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="google-site-verification" content="IEKkazzX_SWH-rq27o9t8T42skPVDWHtRVHamJpw8yE" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
