@@ -20,7 +20,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="google-site-verification" content="IEKkazzX_SWH-rq27o9t8T42skPVDWHtRVHamJpw8yE" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
-	
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145095733-1"></script>
 	<script>
@@ -34,11 +34,35 @@
 		gtag('config', 'UA-145095733-1');
 	</script>
 
+	<!-- Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-T5SKKLB');
+	</script>
+	<!-- End Google Tag Manager -->
+
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 	<?php wp_body_open(); ?>
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5SKKLB" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<div id="page" class="site">
 
 		<header id="" class="pisti-header">
