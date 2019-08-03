@@ -57,7 +57,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<?php wp_body_open(); ?>
 
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5SKKLB" height="0" width="0"
@@ -65,6 +64,7 @@
 	<!-- End Google Tag Manager (noscript) -->
 	<div id="page" class="site">
 
+		<?php wp_body_open(); ?>
 		<header id="" class="pisti-header">
 			<div class="quick-contact">
 				<div class="container d-none d-lg-block">
